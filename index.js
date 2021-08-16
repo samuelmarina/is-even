@@ -46,7 +46,40 @@ function isEven(number) {
     else if(number === 45) return false;
     else if(number === 46) return true;
     else if(number === 47) return false;
-    
+    else if(number === 48) return true;
+    else if(number === 49) return false;
+    else if(number === 50) return true;
+    else if(number === 51) return false;
+    else if(number === 52) return true;
+    else if(number === 53) return false;
+    else if(number === 54) return true;
+    else if(number === 55) return false;
+    else if(number === 56) return true;
+    else if(number === 57) return false;
+    else if(number === 58) return true;
+    else if(number === 59) return false;
+    else if(number === 60) return true;
+    else if(number === 61) return false;
+    else if(number === 62) return true;
+    else if(number === 63) return false;
+    else if(number === 64) return true;
+    else if(number === 65) return false;
+    else if(number === 66) return true;
+    else if(number === 67) return false;
+    else if(number === 68) return true;
+    else if(number === 69) return false;
+    else if(number === 70) return true;
+    else if(number === 71) return false;
+    else if(number === 72) return true;
+    else if(number === 73) return false;
+    else if(number === 74) return true;
+    else if(number === 75) return false;
+    else if(number === 76) return true;
+    else if(number === 77) return false;
+    else if(number === 78) return true;
+    else if(number === 79) return false;
+    else if(number === 80) return true;
+    else if(number === 81) return false;    
 }
 
 module.exports = isEven;
