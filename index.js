@@ -9,6 +9,7 @@ function isEven(number) {
     else if(number === 8) return true;
     else if(number === 9) return false;
     else if(number === 10) return true;
+    else if(number === 11) return false;
 }
 
 module.exports = isEven;
