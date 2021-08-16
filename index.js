@@ -6,3 +6,4 @@ function isEven(nums) {
       return false;
   }
 }
+// Now stop crying you little b!tch
