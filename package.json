@@ -1,6 +1,6 @@
 {
   "name": "@samuelmarina/is-even",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Is the number even?",
   "main": "index.js",
   "scripts": {
