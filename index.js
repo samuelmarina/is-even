@@ -2,7 +2,7 @@ function isEven(number) {
     let counter = 0;
     while (counter !== Infinity) {
         if (number === counter && counter % 2 === 0) return true;
-        else if (number === counter && counter % 2 === 1) return false;
+        else if (number === counter && counter % 2 !== 0) return false;
         counter ++
     }
     // if(number === 1) return false;
