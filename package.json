@@ -1,0 +1,22 @@
+{
+  "name": "@samuelmarina/is-even",
+  "version": "1.0.0",
+  "description": "Is the number even?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmarina/is-even.git"
+  },
+  "keywords": [
+    "even"
+  ],
+  "author": "Samuel Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelmarina/is-even/issues"
+  },
+  "homepage": "https://github.com/samuelmarina/is-even#readme"
+}
