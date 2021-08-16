@@ -21,7 +21,7 @@ This is a 100% serious project, and it is made to help the community. There are 
 decided to help them by creating this beautiful package. Hopefully, someday it will be completed...
 
 ### Contributing
-PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a start, for the sake of God.
+PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a star, for the sake of God.
 
 ### Author
 **Samuel Mariña AKA Samuel Miller**
