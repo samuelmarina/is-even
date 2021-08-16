@@ -21,6 +21,32 @@ function isEven(number) {
     else if(number === 20) return true;
     else if(number === 21) return false;
     else if(number === 22) return true;
+    else if(number === 23) return false;
+    else if(number === 24) return true;
+    else if(number === 25) return false;
+    else if(number === 26) return true;
+    else if(number === 27) return false;
+    else if(number === 28) return true;
+    else if(number === 29) return false;
+    else if(number === 30) return true;
+    else if(number === 31) return false;
+    else if(number === 32) return true;
+    else if(number === 33) return false;
+    else if(number === 34) return true;
+    else if(number === 35) return false;
+    else if(number === 36) return true;
+    else if(number === 37) return false;
+    else if(number === 38) return true;
+    else if(number === 39) return false;
+    else if(number === 40) return true;
+    else if(number === 41) return false;
+    else if(number === 42) return true;
+    else if(number === 43) return false;
+    else if(number === 44) return true;
+    else if(number === 45) return false;
+    else if(number === 46) return true;
+    else if(number === 47) return false;
+    
 }
 
 module.exports = isEven;
