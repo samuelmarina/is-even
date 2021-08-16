@@ -14,7 +14,7 @@ var isEven = require('@samuelmarina/is-even');
 isEven(1); //false
 isEven(2); //true
 isEven(3); //false
-// Ans so on... just for a little while
+// And so on... just for a little while
 ```
 ## About
 This is a 100% serious project, and it is made to help the community. There are a lot of cases where young developers face the issue of finding if a number is even, so I 
