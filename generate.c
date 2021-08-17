@@ -11,6 +11,11 @@ int main(void) {
     // File name
     char filename[23];
 
+
+    // NOTICE:
+    // Change i = * and i < * to change the number of files
+
+    
     // Loop through bitmap files
     for (uint16_t i = 18; i < 27; i++) {
         // Generate file name
