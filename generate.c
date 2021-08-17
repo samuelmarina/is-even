@@ -12,7 +12,7 @@ int main(void) {
     char filename[23];
 
     // Loop through bitmap files
-    for (uint16_t i = 18; i < 27; i++) {
+    for (uint16_t i = 0; i < 9; i++) {
         // Generate file name
         sprintf(filename, "lookups/lookup%04x.bin", i);
 
@@ -33,7 +33,7 @@ int main(void) {
             // If even, set bit
             if ((i * 100000000 + j) % 2 == 0) {
                 // Set bitmap entry
-                bitmap_entry = (1U << offset);
+                bitmap_entry |= (1U << offset);
             }
             
 
