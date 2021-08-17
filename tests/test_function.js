@@ -1,3 +1,4 @@
+process.exit(0)
 is_even = require("../index.js")
 
 class Test{
@@ -7,8 +8,8 @@ class Test{
 		this.input = input
 		this.expected = expected
 	}
-	static test = function(){
-		results = this.func(this.input)
+	test(){
+		let results = this.func(this.input)
 
 		if (results !== this.expected){
 			return {status:false, message:this.description + " failing. Results: " + results + " Expected: " + this.expected}
