@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/samuelmarina/is-even/issues"
   },
-  "homepage": "https://github.com/samuelmarina/is-even#readme"
+  "homepage": "https://github.com/samuelmarina/is-even#readme",
+  "directories": {
+    "test": "tests"
+  }
 }
