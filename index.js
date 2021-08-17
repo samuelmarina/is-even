@@ -1,6 +1,11 @@
 var fs = require('fs');
 
 module.exports = function(n) {
+    // Check if it is a zero
+    if (n === 0) {
+        return false;
+    }
+
     // Determine file number (Each file has 100000000 * 8 entries)
     var fileNum = Math.floor(n / (100000000 * 8));
 
@@ -35,9 +40,7 @@ module.exports = function(n) {
     var byte = buffer.readUInt8(0);
 
     // Get the bit
-    var bit = (byte >> bitInByte) & 1;
-
-    console.log((byte).toString(2).padStart(8,'0'));
+    var bit = (byte >> (8 - bitInByte)) & 1;
 
     // Check if the entry is even or not
     return bit === 1;
