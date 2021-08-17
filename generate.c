@@ -12,7 +12,7 @@ int main(void) {
     char filename[23];
 
     // Loop through bitmap files
-    for (uint16_t i = 9; i < 18; i++) {
+    for (uint16_t i = 18; i < 27; i++) {
         // Generate file name
         sprintf(filename, "lookups/lookup%04x.bin", i);
 
