@@ -1,0 +1,27 @@
+name: Run test suite
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy_source:
+    name: Automatically test 
+    strategy:
+      matrix:
+        node-version: [12.x]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install and build
+        run: |
+          npm ci
+          npm run build --if-present
+        env:
+          CI: true
+      - name: run test suite
+        run: node tests_100000.js
+        env:
+          CI: true
