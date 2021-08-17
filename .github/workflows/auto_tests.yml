@@ -22,6 +22,6 @@ jobs:
         env:
           CI: true
       - name: run test suite
-        run: node tests/tests_100000.js
+        run: node --stack-size=100000 tests/tests_100000.js
         env:
           CI: true
