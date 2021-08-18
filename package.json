@@ -4,7 +4,7 @@
   "description": "Is the number even?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose ./__test__"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/samuelmarina/is-even/issues"
   },
-  "homepage": "https://github.com/samuelmarina/is-even#readme"
+  "homepage": "https://github.com/samuelmarina/is-even#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
