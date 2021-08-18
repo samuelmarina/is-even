@@ -4,7 +4,7 @@ return !isNaN(parseFloat(n)) && !isNaN(n - 0)
 
 var wtn = require('./wtn.js')
 
- module.exports.isEven = function(input) {
+ module.exports.check = function(input) {
    
    if(isNumber(input) == true) {
      return input % 2 == 0;
