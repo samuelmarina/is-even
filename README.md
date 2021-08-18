@@ -30,6 +30,17 @@ PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a 
 * [github/samuelmarina](https://github.com/samuelmarina)
 * [youtube/sammillervlogs](https://youtube.com/sammillervlogs)
 
+### Spacially thanks to `contributers!`
+F*** all of you guys :)
+[lamergameryt](https://github.com/lamergameryt)
+[HyperBeasty](https://github.com/HyperBeasty)
+[SJM96](https://github.com/SJM96)
+[ChrisTTian667](https://github.com/ChrisTTian667)
+[brandon-doornbos](https://github.com/brandon-doornbos)
+[swastik1308](https://github.com/swastik1308)
+[SarangT123](https://github.com/SarangT123)
+[df-gss](https://github.com/df-gss)
+
 ### License
 Copyright © 2021, [Samuel Mariña](https://github.com/samuelmarina).
 Released under the [ISC License](LICENSE).
