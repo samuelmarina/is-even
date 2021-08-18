@@ -1,3 +1,6 @@
+
+// Program to append a condition one line at a time to index.js file with C.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
