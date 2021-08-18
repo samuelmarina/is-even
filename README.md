@@ -11,10 +11,10 @@ $ npm install --save @samuelmarina/is-even
 ```js
 var isEven = require('@samuelmarina/is-even');
 
-isEven(1); //false
-isEven(2); //true
-isEven(3); //false
-// And so on... just for a little while
+isEven(5361); //false
+isEven('two hundred sixty two'); //true
+isEven('three thousand twenty-one'); //false
+// And so on... forever
 ```
 ## About
 This is a 100% serious project, and it is made to help the community. There are a lot of cases where young developers face the issue of finding if a number is even, so I 
@@ -29,6 +29,7 @@ PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a 
 **Samuel Mariña AKA Samuel Miller**
 * [github/samuelmarina](https://github.com/samuelmarina)
 * [youtube/sammillervlogs](https://youtube.com/sammillervlogs)
+* [GoldenFox](https://github.com/cremble-cloud)
 
 ### License
 Copyright © 2021, [Samuel Mariña](https://github.com/samuelmarina).
