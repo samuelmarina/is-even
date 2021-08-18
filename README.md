@@ -11,9 +11,9 @@ $ npm install --save @samuelmarina/is-even
 ```js
 var isEven = require('@samuelmarina/is-even');
 
-isEven(5361); //false
-isEven('two hundred sixty two'); //true
-isEven('three thousand twenty-one'); //false
+isEven.check(5361); //false
+isEven.check('two hundred sixty two'); //true
+isEven.check('three thousand twenty-one'); //false
 // And so on... forever
 ```
 ## About
