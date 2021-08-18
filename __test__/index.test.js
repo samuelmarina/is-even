@@ -13,6 +13,6 @@ describe('check if a number is even or odd', () => {
         expect(isEven(1)).toBeFalsy();
     }) 
     it("2 should be true", ()=>{
-        expect(isEven(1)).toBeFalsy();
+        expect(isEven(2)).toBeTruthy();
     });
 })
