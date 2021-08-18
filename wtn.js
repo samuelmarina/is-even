@@ -1,5 +1,5 @@
 (function() {
-    var english2Number, large, small;
+    var wtn, large, small;
 
     small = {
         'zero': 0,
@@ -46,7 +46,7 @@
         'decillion': 1000000000000000000000000000000000
     };
 
-    english2Number = function(english) {
+    wtn = function(english) {
         var current, exponent, i, int, len, product, total, word, words, negative;
         if (!isNaN(int = parseInt(english, 10))) {
             return int;
@@ -78,7 +78,6 @@
         }
         return output;
     };
-    module.exports = english2Number;
+    module.exports = wtn;
 }).call(this);
-
 //GoldenFox also made this.
