@@ -25,6 +25,12 @@ It is also important to know if a number is odd, so additionally I created this 
 ### Contributing
 PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a star, for the sake of God.
 
+## Roadmap Progress
+Come on, we're so close! Add those numbers!
+
+<img src="https://progress-bar.dev/0/">
+
+
 ### Author
 **Samuel Mariña AKA Samuel Miller**
 * [github/samuelmarina](https://github.com/samuelmarina)
