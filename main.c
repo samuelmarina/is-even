@@ -1,5 +1,5 @@
 
-// Program to write to a condition one line at a time to index.js file with C.
+// Program to write to a condition one line at a time to index.js file with C. The file reached 100 MB exactly with the maximum count of 2,226,043.
 
 #include <stdio.h>
 #include <stdlib.h>
