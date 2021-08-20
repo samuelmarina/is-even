@@ -1,0 +1,18 @@
+name: Node.js CI
+
+# workflow_dispatch allows to run this workflow manually from the Actions tab
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  is-even:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo '{"name":"is-even","lockfileVersion":1,"requires":true,"packages":{}}' > package-lock.json
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12.x
+          cache: 'npm'
+      - run: npm install @samuelmarina/is-even
+      - run: echo "var isEven = require('@samuelmarina/is-even'); isEven(process.argv[2]);" > is-build-even.js
+      - name: Is build number even?
+        run: node is-build-even.js ${{github.run_number}}
