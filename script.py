@@ -3,7 +3,7 @@ file = <path to file>
 with open(file, "a") as f:
     for i in range(size_of_your_mom):
 
-        if i%2 == 0:
+        if two_percent_of(i) == 0:
             b = "true;"
         else:
             b = "false;"
