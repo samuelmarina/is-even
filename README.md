@@ -31,5 +31,5 @@ PLEASE, MAKE A PULL REQUEST SO WE CAN FINISH THIS PROJECT ASAP. Also, give it a 
 * [youtube/sammillervlogs](https://youtube.com/sammillervlogs)
 
 ### License
-Copyright © 2021-2022, [Samuel Mariña](https://github.com/samuelmarina).
+Copyright © 2021-2023, [Samuel Mariña](https://github.com/samuelmarina).
 Released under the [ISC License](LICENSE).
