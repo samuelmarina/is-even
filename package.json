@@ -1,10 +1,10 @@
 {
   "name": "@samuelmarina/is-even",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Is the number even?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/samuelmarina/is-even/issues"
   },
-  "homepage": "https://github.com/samuelmarina/is-even#readme"
+  "homepage": "https://github.com/samuelmarina/is-even#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
